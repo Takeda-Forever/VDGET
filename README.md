@@ -20,10 +20,10 @@ For building this project, you can use MINGW or Visual Studio, but here I have w
 g++ -o video_device_name_getter main.cpp -lmfplat -lcomsupp
 ```
 Explanation:
-main.cpp: source file with code.
--o video_device_name_getter: executable program's name.
--lmfplat: library for working with Media Foundation.
--lcomsupp: Library to support COM.
+- main.cpp: source file with code.
+- -o video_device_name_getter: executable program's name.
+- -lmfplat: library for working with Media Foundation.
+- -lcomsupp: Library to support COM.
 
 ### Usage
 Here is a small example of how to use the IMF to get video device names:
