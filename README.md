@@ -15,7 +15,7 @@ git clone https://github.com/Takeda-Forever/VDGET.git
 Build the project: Use your preferred build system (e.g., Visual Studio) to compile the program. Make sure you have the necessary dependencies for Media Foundation.
 
 ### Building
-For building this project, you can use MINGW or Visual Studio, but here I have wrote the example of building on g++.
+You can build this project using MinGW or Visual Studio. Below is an example of how to build it using g++:
 ```bash
 g++ -o video_device_name_getter main.cpp -lmfplat -lcomsupp
 ```
@@ -27,7 +27,6 @@ Explanation:
 
 ### Usage
 Here is a small example of how to use the IMF to get video device names:
-
 ```bash
 ./video_device_name_getter
 ```
